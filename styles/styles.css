@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+  }
+  
+  div.container {
+    border: 1px solid grey;
+    border-bottom: none;
+  }
+
+  div.weekdays {
+    font-weight: bold;
+  }
+
+  div.col-sm {
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+
+  div.col-sm:last-of-type {
+    border-right: none;
+  }
+
+  .custom-select {
+    width: 150px;
+  }
+
+  .calendar-header {
+    margin: auto;
+    height: 321px;
+    width: 1138px;
+    background: url("../images/spring.jpg")
+  }
